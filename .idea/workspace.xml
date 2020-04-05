@@ -2,73 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c275f3-4c04-47a3-9095-27ce6ac88272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/OrderHystrixMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/controller/OrderHystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/cloud-consumer-feign-order88.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/src/main/java/com/myrule/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/src/main/java/com/yshen/CustomerOrder80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/src/main/java/com/yshen/config/FengnConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/src/main/java/com/yshen/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/src/main/java/com/yshen/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order88/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/yshen/EurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yshen/Controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yshen/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yshen/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorder80/src/main/java/com/myrule/MySelfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/lb/LoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/lb/MyLB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorderzk88/consumerorderzk88.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorderzk88/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorderzk88/src/main/java/com/yshen/Payment88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorderzk88/src/main/java/com/yshen/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorderzk88/src/main/java/com/yshen/controller/OrderZKController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumerorderzk88/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/payment8002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/com/yshen/Payment8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/com/yshen/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/com/yshen/mapper/PaymentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/com/yshen/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/com/yshen/service/impl/paymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8004/payment8004.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8004/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8004/src/main/java/com/yshen/Payment8004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8004/src/main/java/com/yshen/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/yshen/HystrixDashboardMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/yshen/GatewayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/yshen/config/GateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/yshen/filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-83/cloudalibaba-consumer-nacos-order-83.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-83/src/main/java/com/atguigu/springcloud/alibaba/OrderNacosMain83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-83/src/main/java/com/atguigu/springcloud/alibaba/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-83/src/main/java/com/atguigu/springcloud/alibaba/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-83/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/atguigu/springcloud/OrderNacosMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/atguigu/springcloud/controller/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/atguigu/springcloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/CustomerOrder80.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/CustomerOrder80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/src/main/java/com/yshen/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/target/classes/com/yshen/CustomerOrder80.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/target/classes/com/yshen/CustomerOrder80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/target/classes/com/yshen/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/target/classes/com/yshen/config/ApplicationContextConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumerorder80/target/classes/com/yshen/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumerorder80/target/classes/com/yshen/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001/src/main/java/com/yshen/Payment8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/java/com/yshen/Payment8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001/src/main/java/com/yshen/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/java/com/yshen/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001/target/classes/com/yshen/Payment8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/target/classes/com/yshen/Payment8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001/target/classes/com/yshen/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/target/classes/com/yshen/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yshen/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/yshen/PaymentHystrixMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yshen/PaymentHystrixMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/yshen/PaymentHystrixMain8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +116,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -161,22 +134,22 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\APPS\web\springcloud7\payment8001\src\main\resources\mapper" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.yshen.Controller" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\APPS\web\springcloud7\cloudalibaba-consumer-nacos-order-84\src\main\java" />
+      <recent name="D:\APPS\web\springcloud7\cloudalibaba-consumer-nacos-order-84\src\main\resources" />
+      <recent name="D:\APPS\web\springcloud7\cloudalibaba-consumer-nacos-order-83\src\main\java" />
+      <recent name="D:\APPS\web\springcloud7\cloudalibaba-consumer-nacos-order-83\src\main\resources" />
+      <recent name="D:\APPS\web\springcloud7\cloudalibaba-provider-payment9002\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yshen" />
+      <recent name="com.atguigu.springcloud" />
       <recent name="com.yshen.Controller" />
       <recent name="com.myrule" />
       <recent name="com.yshen.controller" />
-      <recent name="com.yshen.config" />
-      <recent name="com.yshen.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\APPS\web\springcloud7\cloud-consumer-feign-hystrix-order80\src\main\java" />
-      <recent name="D:\APPS\web\springcloud7\cloud-consumer-feign-hystrix-order80\src\main\resources" />
-      <recent name="D:\APPS\web\springcloud7\cloud-provider-hystrix-payment8001\src\main\resources" />
-      <recent name="D:\APPS\web\springcloud7\cloud-consumer-feign-order88\src\main\java" />
-      <recent name="D:\APPS\web\springcloud7\cloud-consumer-feign-order88\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yshen.Controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,46 +159,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderHystrixMain80">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yshen.Controller.Main" />
-      <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yshen.Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yshen.Controller.Solution" />
-      <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yshen.Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yshen.Controller.Sort" />
-      <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yshen.Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OrderNacosMain83">
     <configuration name="CustomerOrder80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumerorder80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yshen.CustomerOrder80" />
@@ -247,15 +181,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-feign-hystrix-order80" />
+    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-gateway9527" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.yshen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yshen.GatewayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yshen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yshen.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-hystrix-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderHystrixMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderNacosMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-consumer-nacos-order-83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.OrderNacosMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-consumer-nacos-order-84" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderNacosMain84" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,13 +269,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.PaymentMain9002" />
+        <item itemvalue="Spring Boot.PaymentMain9001" />
+        <item itemvalue="Spring Boot.GatewayMain9527" />
         <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-        <item itemvalue="Spring Boot.OrderHystrixMain80" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +315,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -353,7 +352,8 @@
       <workItem from="1585107312222" duration="146000" />
       <workItem from="1585802566444" duration="8520000" />
       <workItem from="1585880578114" duration="20230000" />
-      <workItem from="1585972537516" duration="198000" />
+      <workItem from="1585972537516" duration="9693000" />
+      <workItem from="1586081326027" duration="6147000" />
     </task>
     <task id="LOCAL-00001" summary="环境搭建&#10;消费模块和支付模块&#10;eureka">
       <created>1584770757776</created>
@@ -362,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584770757776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hystrix&#10;服务降级&#10;服务熔断">
+      <created>1585972960715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585972960715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,13 +377,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="环境搭建&#10;消费模块和支付模块&#10;eureka" />
-    <option name="LAST_COMMIT_MESSAGE" value="环境搭建&#10;消费模块和支付模块&#10;eureka" />
+    <MESSAGE value="hystrix&#10;服务降级&#10;服务熔断" />
+    <option name="LAST_COMMIT_MESSAGE" value="hystrix&#10;服务降级&#10;服务熔断" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1584697359935">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1585973246675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584697359935" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585973246675" />
     <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1585809121991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -385,66 +393,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="412" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1585809166020" />
-    <state x="299" y="3" key="CommitChangelistDialog2" timestamp="1584770745404">
+    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1585972952469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="3" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584770745404" />
+    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585972952469" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1584856288218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584856288218" />
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1585925304287">
+    <state width="1167" height="320" key="GridCell.Tab.0.bottom" timestamp="1586096026825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585925304287" />
-    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1585925304286">
+    <state width="1167" height="320" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586096026825" />
+    <state width="1167" height="320" key="GridCell.Tab.0.center" timestamp="1586096026825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585925304286" />
-    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1585925304286">
+    <state width="1167" height="320" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586096026825" />
+    <state width="1167" height="320" key="GridCell.Tab.0.left" timestamp="1586096026824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585925304286" />
-    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1585925304286">
+    <state width="1167" height="320" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586096026824" />
+    <state width="1167" height="320" key="GridCell.Tab.0.right" timestamp="1586096026825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585925304286" />
-    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1585925304287">
+    <state width="1167" height="320" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586096026825" />
+    <state width="1167" height="320" key="GridCell.Tab.1.bottom" timestamp="1586096026825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585925304287" />
-    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1585925304287">
+    <state width="1167" height="320" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586096026825" />
+    <state width="1167" height="320" key="GridCell.Tab.1.center" timestamp="1586096026825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585925304287" />
-    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1585925304287">
+    <state width="1167" height="320" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586096026825" />
+    <state width="1167" height="320" key="GridCell.Tab.1.left" timestamp="1586096026825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585925304287" />
-    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1585925304287">
+    <state width="1167" height="320" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586096026825" />
+    <state width="1167" height="320" key="GridCell.Tab.1.right" timestamp="1586096026825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585925304287" />
+    <state width="1167" height="320" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586096026825" />
     <state x="349" y="75" key="Registry" timestamp="1584693877249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="75" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1584693877249" />
-    <state x="210" y="110" key="SettingsEditor" timestamp="1584859135376">
+    <state x="210" y="0" key="SettingsEditor" timestamp="1585996875859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="210" y="110" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584859135376" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1584771265870">
+    <state x="210" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585996875859" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585972985353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584771265870" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585972985353" />
     <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1584691008148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1584691008148" />
-    <state x="353" y="105" key="new project wizard" timestamp="1585972743454">
+    <state x="353" y="105" key="new project wizard" timestamp="1586094254935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="353" y="105" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585972743454" />
+    <state x="353" y="105" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586094254935" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1585883763122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
